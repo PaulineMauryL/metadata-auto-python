@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Check all tests pass
+python -m unittest discover -v
+
+# Remove previous release
+rm -rf dist
+rm -rf fso_metadata.egg-info
+
+# Make new release
+python setup.py sdist
+twine upload dist/*

@@ -1,0 +1,5 @@
+black             # MIT License
+openpyxl          # MIT License
+pandas            # BSD License (BSD-3-Clause)
+pandasdmx         # Apache License, Version 2.0
+twine             # Apache Software License
